@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { RiSearch2Line } from "react-icons/ri";
 import { LiaUserSolid } from "react-icons/lia";
 import Sidebar from "./sidebar/sidebar";
@@ -41,23 +42,29 @@ const Navbar = () => {
     <nav className="navbar" style={dapeNavStyle}>
       <ul className="navbar__links">
         <div className="navbar__logo">
-          <a href="/">
+          <Link to="/">
             <img src={SportTXTLogo} alt="" />
-          </a>
+          </Link>
         </div>
         <li>
-          <a className="navbar__link" href="/">
+          <Link className="navbar__link" to="/">
             HOME
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/features">FEATURES</a>
+          <Link className="navbar__link" to="/features">
+            FEATURES
+          </Link>
         </li>
         <li>
-          <a href="/about-us">ABOUT US</a>
+          <Link className="navbar__link" to="/about-us">
+            ABOUT US
+          </Link>
         </li>
         <li>
-          <a href="/contact-us">CONTACT US</a>
+          <Link className="navbar__link" to="/contact-us">
+            CONTACT US
+          </Link>
         </li>
         <div className="nav-icons">
           <a href="/#">
@@ -74,9 +81,9 @@ const Navbar = () => {
 
       <ul className="navbar__links-sm">
         <div className="navbar__logo">
-          <a href="/#">
+          <Link to="/">
             <img src={SportTXTLogo} alt="" />
-          </a>
+          </Link>
         </div>
 
         <div className="nav-icons">

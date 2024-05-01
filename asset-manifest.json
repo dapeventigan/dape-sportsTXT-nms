@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dape-sportsTXT-nms/static/css/main.1a20a23e.css",
-    "main.js": "/dape-sportsTXT-nms/static/js/main.01d9bf1f.js",
+    "main.js": "/dape-sportsTXT-nms/static/js/main.4cb07326.js",
     "static/js/208.0134ca38.chunk.js": "/dape-sportsTXT-nms/static/js/208.0134ca38.chunk.js",
     "static/js/293.96d04e6a.chunk.js": "/dape-sportsTXT-nms/static/js/293.96d04e6a.chunk.js",
     "static/js/917.b8d0d0ea.chunk.js": "/dape-sportsTXT-nms/static/js/917.b8d0d0ea.chunk.js",
@@ -20,7 +20,7 @@
     "static/media/safety-first-icon.png": "/dape-sportsTXT-nms/static/media/safety-first-icon.e8be8805fdba1faee2d9.png",
     "index.html": "/dape-sportsTXT-nms/index.html",
     "main.1a20a23e.css.map": "/dape-sportsTXT-nms/static/css/main.1a20a23e.css.map",
-    "main.01d9bf1f.js.map": "/dape-sportsTXT-nms/static/js/main.01d9bf1f.js.map",
+    "main.4cb07326.js.map": "/dape-sportsTXT-nms/static/js/main.4cb07326.js.map",
     "208.0134ca38.chunk.js.map": "/dape-sportsTXT-nms/static/js/208.0134ca38.chunk.js.map",
     "293.96d04e6a.chunk.js.map": "/dape-sportsTXT-nms/static/js/293.96d04e6a.chunk.js.map",
     "917.b8d0d0ea.chunk.js.map": "/dape-sportsTXT-nms/static/js/917.b8d0d0ea.chunk.js.map",
@@ -32,6 +32,6 @@
   },
   "entrypoints": [
     "static/css/main.1a20a23e.css",
-    "static/js/main.01d9bf1f.js"
+    "static/js/main.4cb07326.js"
   ]
 }

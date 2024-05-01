@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/dape-sportsTXT-nms/static/css/main.1a20a23e.css",
+    "main.js": "/dape-sportsTXT-nms/static/js/main.01d9bf1f.js",
+    "static/js/208.0134ca38.chunk.js": "/dape-sportsTXT-nms/static/js/208.0134ca38.chunk.js",
+    "static/js/293.96d04e6a.chunk.js": "/dape-sportsTXT-nms/static/js/293.96d04e6a.chunk.js",
+    "static/js/917.b8d0d0ea.chunk.js": "/dape-sportsTXT-nms/static/js/917.b8d0d0ea.chunk.js",
+    "static/js/516.10f0582c.chunk.js": "/dape-sportsTXT-nms/static/js/516.10f0582c.chunk.js",
+    "static/js/519.d6441f91.chunk.js": "/dape-sportsTXT-nms/static/js/519.d6441f91.chunk.js",
+    "static/js/946.ceb14987.chunk.js": "/dape-sportsTXT-nms/static/js/946.ceb14987.chunk.js",
+    "static/js/160.581b904e.chunk.js": "/dape-sportsTXT-nms/static/js/160.581b904e.chunk.js",
+    "static/js/23.d9dacdac.chunk.js": "/dape-sportsTXT-nms/static/js/23.d9dacdac.chunk.js",
+    "static/media/section2-img.png": "/dape-sportsTXT-nms/static/media/section2-img.6a673a3c1a061fea70fd.png",
+    "static/media/section1-img.png": "/dape-sportsTXT-nms/static/media/section1-img.964ee33d86b73cb6308b.png",
+    "static/media/logo.png": "/dape-sportsTXT-nms/static/media/logo.aa93861075e0f97d27dc.png",
+    "static/media/section3-img.png": "/dape-sportsTXT-nms/static/media/section3-img.4a7f85b7b7ab2f87d062.png",
+    "static/media/mem-first-icon.png": "/dape-sportsTXT-nms/static/media/mem-first-icon.1065555e1d5305c04e17.png",
+    "static/media/value-first-icon.png": "/dape-sportsTXT-nms/static/media/value-first-icon.50c47652d56219be38d1.png",
+    "static/media/data-first-icon.png": "/dape-sportsTXT-nms/static/media/data-first-icon.186e807f9426e6655402.png",
+    "static/media/safety-first-icon.png": "/dape-sportsTXT-nms/static/media/safety-first-icon.e8be8805fdba1faee2d9.png",
+    "index.html": "/dape-sportsTXT-nms/index.html",
+    "main.1a20a23e.css.map": "/dape-sportsTXT-nms/static/css/main.1a20a23e.css.map",
+    "main.01d9bf1f.js.map": "/dape-sportsTXT-nms/static/js/main.01d9bf1f.js.map",
+    "208.0134ca38.chunk.js.map": "/dape-sportsTXT-nms/static/js/208.0134ca38.chunk.js.map",
+    "293.96d04e6a.chunk.js.map": "/dape-sportsTXT-nms/static/js/293.96d04e6a.chunk.js.map",
+    "917.b8d0d0ea.chunk.js.map": "/dape-sportsTXT-nms/static/js/917.b8d0d0ea.chunk.js.map",
+    "516.10f0582c.chunk.js.map": "/dape-sportsTXT-nms/static/js/516.10f0582c.chunk.js.map",
+    "519.d6441f91.chunk.js.map": "/dape-sportsTXT-nms/static/js/519.d6441f91.chunk.js.map",
+    "946.ceb14987.chunk.js.map": "/dape-sportsTXT-nms/static/js/946.ceb14987.chunk.js.map",
+    "160.581b904e.chunk.js.map": "/dape-sportsTXT-nms/static/js/160.581b904e.chunk.js.map",
+    "23.d9dacdac.chunk.js.map": "/dape-sportsTXT-nms/static/js/23.d9dacdac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a20a23e.css",
+    "static/js/main.01d9bf1f.js"
+  ]
+}

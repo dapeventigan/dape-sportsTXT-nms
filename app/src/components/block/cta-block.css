@@ -1,0 +1,50 @@
+.cta-container {
+  background: radial-gradient(#4d6478 20%, #015ca8 100%);
+  height: 225px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0rem 2rem;
+}
+
+.cta-title {
+  color: var(--color-white);
+  font-size: 50px;
+}
+
+.cta-desc {
+  color: var(--color-white);
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1350px) {
+  .cta-title {
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .cta-desc {
+    text-align: center;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .cta-container {
+    height: 155px;
+  }
+
+  .cta-title {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .cta-desc {
+    text-align: center;
+    font-size: 12px;
+  }
+}

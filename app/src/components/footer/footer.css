@@ -1,0 +1,35 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem 1rem 0 1rem;
+}
+
+footer > img {
+  width: 300px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-copyright {
+  text-align: center;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 515px) {
+  footer > img {
+    width: 200px;
+  }
+
+  .footer-links {
+    font-size: 12px;
+  }
+
+  .footer-copyright {
+    font-size: 12px;
+  }
+}

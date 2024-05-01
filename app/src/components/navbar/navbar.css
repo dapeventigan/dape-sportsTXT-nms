@@ -1,0 +1,47 @@
+.navbar {
+  height: 90px;
+  position: sticky;
+  left :0;
+  z-index: 99;
+  padding: 1rem;
+}
+
+.navbar__links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.navbar__logo {
+  width: 200px;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 20%;
+}
+
+.navbar__links-sm {
+  display: none;
+}
+
+@media screen and (max-width: 1050px) {
+  .navbar {
+    height: 70px;
+  }
+
+  .navbar__links {
+    display: none;
+  }
+
+  .navbar__links-sm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 2rem;
+  }
+}

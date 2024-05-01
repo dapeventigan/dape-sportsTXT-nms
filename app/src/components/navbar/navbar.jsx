@@ -1,0 +1,90 @@
+import React, { useState, useEffect } from "react";
+import { RiSearch2Line } from "react-icons/ri";
+import { LiaUserSolid } from "react-icons/lia";
+import Sidebar from "./sidebar/sidebar";
+
+import SportTXTLogo from "../../assets/logo.png";
+import "./navbar.css";
+
+const Navbar = () => {
+  const [showStyle, setshowStyle] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      const threshold = 150;
+
+      if (scrollPosition > threshold) {
+        setshowStyle(true);
+      } else {
+        setshowStyle(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const dapeNavStyle = {
+    top: showStyle ? "10px" : "0px",
+    backgroundColor: showStyle ? "#F4F4F4" : "white",
+    borderRadius: showStyle ? "3rem" : "0",
+    margin: showStyle ? "1rem 2rem" : "0",
+    transition:
+      "top 0.3s ease-in-out, background-color 0.3s ease-in-out, border-radius 0.3s ease-in-out, margin 0.3s ease-in-out",
+  };
+
+  return (
+    <nav className="navbar" style={dapeNavStyle}>
+      <ul className="navbar__links">
+        <div className="navbar__logo">
+          <a href="/">
+            <img src={SportTXTLogo} alt="" />
+          </a>
+        </div>
+        <li>
+          <a className="navbar__link" href="/">
+            HOME
+          </a>
+        </li>
+        <li>
+          <a href="/features">FEATURES</a>
+        </li>
+        <li>
+          <a href="/about-us">ABOUT US</a>
+        </li>
+        <li>
+          <a href="/contact-us">CONTACT US</a>
+        </li>
+        <div className="nav-icons">
+          <a href="/#">
+            <RiSearch2Line size={25} color="#015CA8" />
+          </a>
+
+          <a href="/#">
+            <LiaUserSolid size={35} color="#015CA8" />
+          </a>
+
+          <button className="button-1">JOIN NOW</button>
+        </div>
+      </ul>
+
+      <ul className="navbar__links-sm">
+        <div className="navbar__logo">
+          <a href="/#">
+            <img src={SportTXTLogo} alt="" />
+          </a>
+        </div>
+
+        <div className="nav-icons">
+          <Sidebar />
+        </div>
+      </ul>
+    </nav>
+  );
+};
+
+export default Navbar;

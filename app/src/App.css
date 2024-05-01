@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/*My Default CSS values from scratch */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* REUSABLE STYLES */
+:root {
+  /* COLOR */
+  --color-blue: #015ca8;
+  --color-red: #e61a27;
+  --color-white: #ffffff;
+
+  /* CONTAINER RESP SIZE*/
+  --container-width-zero: 97%;
+  --container-width-lg: 80%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+
+  /* TRANSITION */
+  --transition: all 300ms ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+html {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+
+a {
+  color: var(--color-blue);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+a:hover{
+  color: #00172b;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+.button-1 {
+  width: 144px;
+  height: 53px;
+  border-radius: 35px;
+  font-weight: bold;
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+
+.button-1:hover {
+  background-color: #00335e;
+}
+
+.button-2 {
+  width: 144px;
+  height: 53px;
+  border-radius: 35px;
+  font-weight: bold;
+  background-color: var(--color-red);
+  color: var(--color-white);
+  transition: var(--transition);
+}
+
+.button-2:hover {
+  background-color: #a81721;
+}
+
+.button-3 {
+  width: 144px;
+  height: 53px;
+  border-radius: 35px;
+  border: 3px solid var(--color-blue);
+  background-color: var(--color-white);
+  color: var(--color-blue);
+  font-weight: bold;
+  transition: var(--transition);
+}
+
+.button-3:hover {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+
+@media screen and (max-width: 1024px) {
+  .button-1,
+  .button-2,
+  .button-3 {
+    width: 134px;
+    height: 43px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .button-1,
+  .button-2,
+  .button-3 {
+    width: 104px;
+    height: 33px;
+    font-size: 12px;
+  }
+}
